@@ -1,6 +1,6 @@
-##task-1-data-collection-pre-processing 
+task-1-data-collection-pre-processing 
 
-#Taks Leader: 
+Taks Leader: 
 
 This channel covers:   (W1) shared to w2
 
