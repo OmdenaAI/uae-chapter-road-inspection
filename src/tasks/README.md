@@ -8,4 +8,5 @@
 |2|  task-2-ml-modeling       |   Prepare/Explore ML approaches, Explore the pre-trained network and ML models, CNN training and validation, Perform transfer learning |
 |3|  task-3-deploy-visualize-report       | Deployment, evluation, and reporting        |
 
-![image](https://user-images.githubusercontent.com/90293163/197565138-6bcdd0a1-dab6-4a3c-b52c-b3e03172a401.png)
+ ![image](https://user-images.githubusercontent.com/90293163/197565243-c92b360f-71fa-467e-ad0b-b93ee1d5ec98.png)
+
