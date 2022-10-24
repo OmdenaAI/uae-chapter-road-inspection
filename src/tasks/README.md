@@ -4,7 +4,7 @@
 
 | Task No| Task Name | Details |
 |-|-|-|
-|1|         |         |
+|1|  task-1-data-collection-pre-processing       |    Research, data collection, and pre-processing     |
 |2|         |         |
 |3|         |         |
 |4|         |         |
