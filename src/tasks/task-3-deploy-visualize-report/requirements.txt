@@ -1,0 +1,9 @@
+folium==0.12.1
+geocoder==1.38.1
+geopy==2.2.0
+numpy==1.23.4
+Pillow==9.3.0
+streamlit==1.10.0
+streamlit_folium==0.4.0
+streamlit_js_eval==0.1.5
+tensorflow==2.10.0
