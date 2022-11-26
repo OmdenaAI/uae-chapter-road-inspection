@@ -1,2 +1,0 @@
-# AI Based Road Inspection
-
