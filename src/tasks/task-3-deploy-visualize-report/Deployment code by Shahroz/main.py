@@ -170,6 +170,7 @@ if model == 'ResNet152V2 (Crack & Groove)':
     else:
         if url:
             predict_with_url(url, 'Weights/Timm_ResNet152V2.h5', 256, classes)
+
 elif model == 'Deep Hybrid EfficientNetB0 (Crack & Groove)':
     classes = ["Crack", "Groove"]
     if page == 'Image Upload':
