@@ -1,0 +1,118 @@
+The CSV file is based on these factors (arrcontrrast,arrcorrelation,arrasms,arrhomo)
+train_csv is the file for training and testing purpose 
+these data set is divided as 60 40(training  60% and testing 40%)
+
+various Machine learnig Classifier are used for incerasing Accuracy 
+(this is the output for Model build)
+Logistic Regration solution
+
+[[ 0.         -0.33288346  0.09931557  0.5981809   0.6003454 ]
+ [ 0.          0.75434871 -1.09179709 -0.69997925 -1.12355603]
+ [ 0.         -0.3298581  -0.7191049   0.15580438 -0.23168136]
+ [ 0.         -0.24286863  0.63232517 -0.63745154  0.16767428]
+ [ 0.          0.46762098 -0.87875336 -0.61380498 -0.84813053]
+ [ 0.         -0.27646001 -0.04546446 -0.30091052 -0.23505237]
+ [ 0.         -0.71824747  1.09206382 -0.37279774  0.60933117]
+ [ 0.          0.64040354 -0.16895226 -0.83781028 -0.61466711]
+ [ 0.         -1.1568704   1.02831173  1.67985614  1.28351645]
+ [ 0.         -0.15078419 -0.26129623  0.90821345 -0.13062356]]
+[0 0 0 ... 0 0 0]
+[[962   0   0   0]
+ [ 62   1   0   0]
+ [ 67   2   0   0]
+ [ 48   0   0   0]]
+Accuracy :  0.8432574430823118
+classification Report
+               precision    recall  f1-score   support
+
+           0       0.84      1.00      0.92       962
+           1       0.33      0.02      0.03        63
+           2       0.00      0.00      0.00        69
+           3       0.00      0.00      0.00        48
+
+    accuracy                           0.84      1142
+   macro avg       0.29      0.25      0.24      1142
+weighted avg       0.73      0.84      0.77      1142
+***************************************************************************************
+KNN solution
+
+[0 0 0 ... 0 0 0]
+Confusion matrix 
+ [[949   3  10   0]
+ [ 58   5   0   0]
+ [ 62   0   7   0]
+ [ 48   0   0   0]]
+Accuracy :  0.841506129597198
+classification Report
+               precision    recall  f1-score   support
+
+           0       0.85      0.99      0.91       962
+           1       0.62      0.08      0.14        63
+           2       0.41      0.10      0.16        69
+           3       0.00      0.00      0.00        48
+
+    accuracy                           0.84      1142
+   macro avg       0.47      0.29      0.30      1142
+weighted avg       0.78      0.84      0.79      1142
+**********************************************************************
+SVM Solution 
+[0 0 0 ... 0 0 0]
+Confusion matrix 
+ [[949   3  10   0]
+ [ 58   5   0   0]
+ [ 62   0   7   0]
+ [ 48   0   0   0]]
+Accuracy :  0.841506129597198
+classification Report
+               precision    recall  f1-score   support
+
+           0       0.85      0.99      0.91       962
+           1       0.62      0.08      0.14        63
+           2       0.41      0.10      0.16        69
+           3       0.00      0.00      0.00        48
+
+    accuracy                           0.84      1142
+   macro avg       0.47      0.29      0.30      1142
+weighted avg       0.78      0.84      0.79      1142
+************************************************************************
+Naive Baise solution 
+
+[0 0 0 ... 0 0 0]
+Confusion matrix 
+ [[949   3  10   0]
+ [ 58   5   0   0]
+ [ 62   0   7   0]
+ [ 48   0   0   0]]
+Accuracy :  0.841506129597198
+classification Report
+               precision    recall  f1-score   support
+
+           0       0.85      0.99      0.91       962
+           1       0.62      0.08      0.14        63
+           2       0.41      0.10      0.16        69
+           3       0.00      0.00      0.00        48
+
+    accuracy                           0.84      1142
+   macro avg       0.47      0.29      0.30      1142
+weighted avg       0.78      0.84      0.79      1142
+*****************************************************************************
+Decision Tree slution
+
+[0 0 0 ... 0 0 0]
+Confusion matrix 
+ [[949   3  10   0]
+ [ 58   5   0   0]
+ [ 62   0   7   0]
+ [ 48   0   0   0]]
+Accuracy :  0.841506129597198
+classification Report
+               precision    recall  f1-score   support
+
+           0       0.85      0.99      0.91       962
+           1       0.62      0.08      0.14        63
+           2       0.41      0.10      0.16        69
+           3       0.00      0.00      0.00        48
+
+    accuracy                           0.84      1142
+   macro avg       0.47      0.29      0.30      1142
+weighted avg       0.78      0.84      0.79      1142
