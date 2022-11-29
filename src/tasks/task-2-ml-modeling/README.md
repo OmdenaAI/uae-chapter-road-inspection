@@ -12,4 +12,16 @@ W4.1 System testing and accuracy reporting
 *Used a balanced dataset of 2250:2250 for Crack/Groove and Used a balanced dataset of 199:199 for Rut/Subsidence.  
 *Test Data has a total of 450 samples for Crack/Groove with 225 for each class and a total of 40 samples for Rut/Subsidence with 20 for each class.
 
-## Ri
+* Crack/Groove Dataset: [link](https://drive.google.com/drive/folders/1pY0Yaevl3AL0s_g8QVT5Vj7DFo6Fl4qq)
+<img src = https://github.com/OmdenaAI/uae-chapter-road-inspection/blob/main/src/tasks/task-2-ml-modeling/Assets/Dataset(Cracks%20%2BGroove).jpg>
+
+* Rut/Subsidence Dataset: [link](https://drive.google.com/drive/folders/1NYd1OtEC2FSRMoY6QbrVQ7bP6JaQmBcf)
+<img src = https://github.com/OmdenaAI/uae-chapter-road-inspection/blob/main/src/tasks/task-2-ml-modeling/Assets/Dataset(Rut%2BSubsidence).jpg>
+
+## ResNet152V2
+Notebook : [link](https://github.com/OmdenaAI/uae-chapter-road-inspection/blob/main/src/tasks/task-2-ml-modeling/crack_groove.ipynb)  
+Model Weight: [link](https://https://drive.google.com/drive/folders/136XhbrlrGz42r7j_AX_7kGoTJl4j6kvj)
+<img src = https://github.com/OmdenaAI/uae-chapter-road-inspection/blob/main/src/tasks/task-2-ml-modeling/Assets/ResNet152V2(Crack%2BGroove%20Dataset).jpg>
+
+
+
