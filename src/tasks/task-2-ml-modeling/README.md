@@ -21,7 +21,14 @@ W4.1 System testing and accuracy reporting
 ## ResNet152V2
 Notebook : [link](https://github.com/OmdenaAI/uae-chapter-road-inspection/blob/main/src/tasks/task-2-ml-modeling/crack_groove.ipynb)  
 Model Weight: [link](https://https://drive.google.com/drive/folders/136XhbrlrGz42r7j_AX_7kGoTJl4j6kvj)
+<img src = https://github.com/OmdenaAI/uae-chapter-road-inspection/blob/main/src/tasks/task-2-ml-modeling/Assets/ResNet152V2(Crack%2BGroove%20Dataset)-Architecture.jpg>
 <img src = https://github.com/OmdenaAI/uae-chapter-road-inspection/blob/main/src/tasks/task-2-ml-modeling/Assets/ResNet152V2(Crack%2BGroove%20Dataset).jpg>
 
-
+Fine Tuning:   
+   * Number of epochs trained -10 
+   * Batch size – 102  
+   * Train Validation split: 80:20  
+   * Optimizer- adam
+   * Dataset was randomly shuffled  
+   * Framework : Tensorflow
 
