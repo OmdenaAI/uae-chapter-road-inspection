@@ -98,5 +98,56 @@ Fine Tuning
    * Optimizer -SGD, Learning rate - 0.01, stepsize = len(validation_generator)
    * Framework: Tensorflow
 
+# Rut and Subsidence Models:
+
+## MobileNetV2 - 97.5%
+
+* Notebook : [link](https://github.com/OmdenaAI/uae-chapter-road-inspection/blob/main/src/tasks/task-2-ml-modeling/rut_subsidence.ipynb) 
+* Model Weight: [link](https://drive.google.com/drive/folders/1pCmmwMR3cVuZ-h1E-aqm9Wk5Q7OmM2xi)
+
+ <img src = https://github.com/OmdenaAI/uae-chapter-road-inspection/blob/main/src/tasks/task-2-ml-modeling/Assets/MobileNetV2(Rut%2BSubsidence%20Dataset)-Architecture.jpg>
+  <img src = https://github.com/OmdenaAI/uae-chapter-road-inspection/blob/main/src/tasks/task-2-ml-modeling/Assets/MobileNetV2(Rut%2BSubsidence%20Dataset).jpg>
+
+Fine Tuning  
+
+   * Number of epochs trained -10(monitored val accuracy and reduced learning rate, used early stopping and model checkpoints) 
+   * Batch size -32 
+   * Train validation split :80-20.  
+   * Optimizer -adam,stepsize = len(val_ds)
+   * Dataset was randomly shuffled  
+   * Framework: Tensorflow
+
+
+## EfficientNetB0 - 97.5%
+
+* Notebook : [link](https://github.com/OmdenaAI/uae-chapter-road-inspection/blob/main/src/tasks/task-2-ml-modeling/EfficientNetB0_Rut%26Subsidence.ipynb) 
+* Model Weight: [link](https://drive.google.com/drive/folders/1_xVcI1FbudRP03YEGtVTaseeZj2JCsaL)
+
+  ![Screenshot 2022-11-28 203535](https://user-images.githubusercontent.com/81407869/204439903-8e757c6a-245a-4c15-8b67-4b9d20426b02.jpg)
+  <img src = https://github.com/OmdenaAI/uae-chapter-road-inspection/blob/main/src/tasks/task-2-ml-modeling/Assets/EfficientNet(Rut%2BSubsidence%20Dataset).jpg>
+  
+
+Fine Tuning  
+
+   * Number of epochs trained -100(monitored val accuracy, used early stopping and model checkpoints)  
+   * Batch size -32  
+   * Train validation split :80-20.  
+   * Optimizer -opt, Learning rate - 0.001, #stepsize :nb_validation_samples = len(val_gen)   
+   * Dataset was randomly shuffled  
+   * Framework: Tensorflow
 
    
+## VGG16 - 96.60% Accuracy
+* Notebook : [link](https://github.com/OmdenaAI/uae-chapter-road-inspection/blob/main/src/tasks/task-2-ml-modeling/VGG16_Rut%2BSubsidence.ipynb) 
+* Model Weight: [link](https://drive.google.com/drive/folders/1-HGmRloHKyJ-dtEunePeNoqi_llSq8or)
+
+<img src = https://github.com/OmdenaAI/uae-chapter-road-inspection/blob/main/src/tasks/task-2-ml-modeling/Assets/VGG16(Rut%2BSubsidence_%20Dataset)Learning_Curve.jpg>
+<img src = https://github.com/OmdenaAI/uae-chapter-road-inspection/blob/main/src/tasks/task-2-ml-modeling/Assets/VGG16(Rut%2BSubsidence%20Dataset).jpg>
+
+Fine Tuning  
+
+   * Number of epochs trained -100
+   * Batch size -64  
+   * Train validation split :80-20.  
+   * Optimizer -RMSprop, Learning rate - 1e-5, #stepsize :int(val_test_generator/batch_size)  
+   * Framework: Tensorflow
